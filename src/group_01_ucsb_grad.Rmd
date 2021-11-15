@@ -5,8 +5,8 @@ date: "11/11/2021"
 output: html_document
 ---
 
-```{r setup, include=TRUE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=TRUE, message = FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 
 library(tidyverse)
 library(here)
@@ -14,6 +14,7 @@ library(here)
 
 
 ```{r}
+# read in data
 ucsb_grad <- read_csv(here("data", "ucsb_grad_data.csv"))
 ```
 
