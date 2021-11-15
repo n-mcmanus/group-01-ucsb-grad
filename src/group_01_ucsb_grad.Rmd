@@ -16,5 +16,8 @@ library(here)
 ```{r}
 ucsb_grad <- read_csv(here("data", "ucsb_grad_data.csv"))
 ```
+Add a new code chunk to create a basic ggplot2 column graph (with geom_col) showing the change in domestic graduate enrollment (y-axis: domestic_enrollment) from 2008 - 2019 (x-axis: year_abbr), with the fill color dependent on race/ethnicity. Do not update / finalize the graph further - this is what you will both work on in the next steps. 
+Stage, commit, pull, then push your updates to GitHub
+Let your partner know you’re done with this part
 
 
